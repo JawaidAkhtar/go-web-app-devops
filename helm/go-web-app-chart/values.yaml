@@ -7,7 +7,7 @@ replicaCount: 1
 image:
   repository: jawaid365/go-web-app
   pullPolicy: IfNotPresent
-  tag: "12203684290"
+  tag: "12204061061"
 
 ingress:
   enabled: true
