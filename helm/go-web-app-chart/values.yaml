@@ -7,7 +7,7 @@ replicaCount: 1
 image:
   repository: jawaid365/go-web-app
   pullPolicy: IfNotPresent
-  tag: "12211319170"
+  tag: "latest"
 
 ingress:
   enabled: true
@@ -16,7 +16,7 @@ ingress:
     kubernetes.io/ingress.class: nginx
     kubernetes.io/tls-acme: "true"
   hosts:
-    - host: ac2d4dcfec55342e89b464dd5d8bec57-cd85588270b339a7.elb.us-east-1.amazonaws.com
+    - host: acf55867a6dd34b72b5dd2b94c1c2298-1faa557935a9cb58.elb.us-east-2.amazonaws.com
       paths:
         - path: /
           pathType: Prefix
